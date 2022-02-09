@@ -9,7 +9,6 @@
           <form action="#" method="POST" autocomplete="on">
             <div class="shadow overflow-hidden sm:rounded-md">
               <div>
-                <label for="email-address" class="sr-only">Email address</label>
                 <input
                   @input="createUser"
                   v-model="username"
